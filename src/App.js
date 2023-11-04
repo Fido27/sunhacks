@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import './backend/canvas.js'
+import { canvasConnect } from './backend/canvas.js';
 
 function App() {
   return (
@@ -7,7 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> and save to reload. {canvasConnect()}
         </p>
         <a
           className="App-link"
