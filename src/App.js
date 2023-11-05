@@ -10,13 +10,17 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className='main-grid'>
-          <div className='courses-list'>
-            {Courses()}
+          <div className='courses-grid'>
+            <div className='user-pfp'>
+              
+            </div>
+            
           </div>
           <div className='channels-list'>
-            {Channels()}
+            
           </div>
           <div className='text-window'>
+            
           </div>
         </div>
       </header>

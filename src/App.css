@@ -21,11 +21,9 @@
   width: 100%;
 }
 
-.courses-list {
+.courses-grid {
   flex: 1;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
 }
 
 .channels-list {
@@ -36,4 +34,13 @@
 .text-window {
   flex: 3;
   height: 100vh;
+}
+
+.user-pfp {
+  background-image: url("user-pfp.png");
+  border : 1px solid red;
+  height: 100px;
+  width: 100px;
+  align-self: center;
+  border-radius: 50%;
 }
