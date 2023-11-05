@@ -3,6 +3,7 @@ import './App.css';
 import './backend/canvas.js'
 import { canvasConnect } from './backend/canvas.js';
 import { Courses } from './frontend/courses.js'
+import { Channels } from './frontend/channels.js'
 
 function App() {
   return (
@@ -10,14 +11,12 @@ function App() {
       <header className="App-header">
         <div className='main-grid'>
           <div className='courses-list'>
-            {/* {Courses} */}
-            lmao bruh ngl
+            {Courses()}
           </div>
           <div className='channels-list'>
-            lmao 2
+            {Channels()}
           </div>
           <div className='text-window'>
-            lmao 3
           </div>
         </div>
       </header>

@@ -24,6 +24,8 @@
 .courses-list {
   flex: 1;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .channels-list {

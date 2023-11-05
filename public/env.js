@@ -1,1 +1,4 @@
-window.env = {};
+window.env = {
+  "REACT_APP_CANVAS_TOKEN": "7236~qgkS2Nhrbu4bi1DoJDfF1qF4dUzJ3QW6m3UCSHNFqfX7r1OpkXHaRqFtgKGUI13Y",
+  "REACT_APP_SAMPLE_COURSE_ID": "132339"
+};
