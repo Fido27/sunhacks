@@ -4,8 +4,10 @@ import './backend/canvas.js'
 import { canvasConnect } from './backend/canvas.js';
 import { Courses } from './frontend/courses.js'
 import { Channels } from './frontend/channels.js'
+import { Chat } from './backend/chat.js'
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
@@ -20,10 +22,8 @@ function App() {
             
           </div>
           <div className='channels-list'>
-            
-          </div>
-          <div className='text-window'>
-            
+            <div className='text-window'>
+            </div>
           </div>
         </div>
       </header>
