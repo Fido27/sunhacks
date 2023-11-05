@@ -1,6 +1,6 @@
 .courses {
-    
     width: auto;
     height: 30px;
     text-align: center;
+    border: 2px solid white;
 }

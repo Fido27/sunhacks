@@ -24,11 +24,15 @@
 .courses-grid {
   flex: 1;
   height: 100vh;
+  border-right: 1px solid white;
+  padding-right: 30px;
+  padding-left: 20px;
 }
 
 .channels-list {
   flex: 2;
   height: 100vh;
+  border-right: 1px solid white;
 }
 
 .text-window {
@@ -41,9 +45,25 @@
   margin-left: 20px;
   margin-right: 20px;
   background-image: url("user-pfp.png");
-  border : 1px solid red;
   height: 75px;
   width: 75px;
   align-self: center;
   border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.courses {
+  border: 1px solid white;
+  border-radius: 25px;
+  margin: 10px;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+}
+
+.courses-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
