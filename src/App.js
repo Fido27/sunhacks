@@ -11,8 +11,11 @@ function App() {
       <header className="App-header">
         <div className='main-grid'>
           <div className='courses-grid'>
-            <div className='user-pfp'>
-              
+            <img src={require("./user-pfp.png")} 
+              className='user-pfp'/>
+
+            <div className='courses-list'>
+              {Courses()}
             </div>
             
           </div>

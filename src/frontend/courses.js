@@ -12,6 +12,6 @@ export function Courses() {
     for (var i = 0; i < 3; i++) {
         indents.push(construct("12345" , "Test_Course"));
     }
+    
     return indents;
-
 }

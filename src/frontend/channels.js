@@ -25,6 +25,3 @@ export function Channels() {
     return indents;
 }
 
-git config --global user.email "tjaiman0907@gmail.com"
-git config --global user.name "tanay-jaiman"
-git config --global user.password "M3leod@s"
