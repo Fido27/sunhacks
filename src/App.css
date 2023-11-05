@@ -14,19 +14,24 @@
 }
 
 .main-grid {
-  display: flex;
+  display: inline-flex;
+  align-content: center;
   flex-direction: row;
-  flex-wrap: nowrap
+  flex-wrap: nowrap;
+  width: 100%;
 }
 
 .courses-list {
-  flex-grow: 1;
+  flex: 1;
+  height: 100vh;
 }
 
 .channels-list {
-  flex-grow: 2;
+  flex: 2;
+  height: 100vh;
 }
 
 .text-window {
-  flex-grow: 3;
+  flex: 3;
+  height: 100vh;
 }

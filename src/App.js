@@ -10,13 +10,14 @@ function App() {
       <header className="App-header">
         <div className='main-grid'>
           <div className='courses-list'>
-            {Courses}
+            {/* {Courses} */}
+            lmao bruh ngl
           </div>
           <div className='channels-list'>
-
+            lmao 2
           </div>
           <div className='text-window'>
-
+            lmao 3
           </div>
         </div>
       </header>

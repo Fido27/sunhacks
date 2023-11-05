@@ -37,8 +37,10 @@
       "last 1 safari version"
     ]
   },
-
   "react-dotenv": {
-    "whitelist": ["REACT_APP_CANVAS_TOKEN" , "REACT_APP_SAMPLE_COURSE_ID"]
+    "whitelist": [
+      "REACT_APP_CANVAS_TOKEN",
+      "REACT_APP_SAMPLE_COURSE_ID"
+    ]
   }
 }
