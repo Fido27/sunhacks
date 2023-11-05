@@ -9,7 +9,7 @@ load_dotenv()
 sample_id = os.getenv("REACT_APP_SAMPLE_COURSE_ID")
 canvas_token = os.getenv("REACT_APP_CANVAS_TOKEN")
 
-response = requests.get("https://asu.instructure.com/api/v1/courses/?access_token={}".format(canvas_token), params={'per_page' : 100, 'include' : 'term'})
+response = requests.get("https://asu.instructure.com/api/v1/courses/?access_token={}".format(canvas_token), params={'per_page' : 100, 'include[]' : ['term', 'syllabus_body']})
 
 print(response.status_code)
 

@@ -1,3 +1,5 @@
+import { ReactDOM } from "react";
+
 
 function construct(id , name) {
     return (
@@ -7,11 +9,14 @@ function construct(id , name) {
     );
 }
 
-export function Courses() {
-    var indents = [];
-    for (var i = 0; i < 3; i++) {
-        indents.push(construct("12345" , "Test_Course"));
-    }
-    return indents;
+export function display_syllabus(course) {
+    return (
+        <div>
+            {course.syllabus_body}
+        </div>
+    );
+}
 
+export function TextWindow(func, course) {
+    return (func(course));
 }

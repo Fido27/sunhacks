@@ -1,5 +1,7 @@
 import env from "react-dotenv";
+import ReactDOM from 'react-dom';
 import data from "../backend/course_response.json";
+import { Channels } from './channels.js';
 
 function init() {
     var curr_session_courses = [];
@@ -15,8 +17,19 @@ function init() {
 }
 
 function construct(id , name) {
+
     return (
-        <a className="courses" href="https://tanay-jaiman.github.io/portfolio" target="_blank">
+        <a className="courses" target="_blank" onClick={() => {
+            const root = ReactDOM.createRoot(
+                document.querySelector("div.channels-list")
+            );
+
+            root.render(
+                Channels(id)
+            );
+
+            document.querySelector('div.text-window').innerHTML = "";
+        }}>
             <div>
                 <p>{name}</p>
             </div>
